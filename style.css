@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Archivo+Black&family=Bodoni+Moda:wght@400;900&family=Chakra+Petch:ital,wght@0,400;1,300&family=Foldit:wght@100&family=Gravitas+One&family=Kalam:wght@700&family=Lato:ital,wght@0,400;1,700&family=Merriweather&family=Poppins:wght@400;500&family=Roboto:wght@100;300&family=Rubik+Mono+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.navbar {
+    width: 100vw;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+}
+.spn {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.nav img {
+    width: 90px;
+    height: 27px;
+}
+.nav .menu {
+    margin-left: 40px;
+}
+.nav .menu a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 13px;
+    font-family: 'poppins',sans-serif;
+}
+
+.navbar .btn {
+    width: 120px;
+    height: 30px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.2%;
+    font-family: 'poppins',sans-serif;
+    background-color: #b90ec5;
+    color: white;
+    border: transparent;
+    font-weight: 500;
+}
+
+
+body{
+    background: url(images/bg.png);
+    width: 100%;
+    height: 100%;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.body-part {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11%;
+}
+
+.body-part  h1 {
+    font-size: 4rem;
+    color: white;
+    font-family: 'poppins', serif;
+}
+.body-part  p {
+    font-size: 20px;
+    color: white;
+    font-family: 'poppins', serif;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.body-part .btn-last {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 700;
+    color: white;
+    background-color: #b90ec5;
+    margin-left: 25%;
+    font-size: 20px;
+    border: transparent;
+    border-radius: 5px;
+}
